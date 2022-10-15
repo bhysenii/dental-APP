@@ -15,7 +15,7 @@ const Card = () => {
                         return (
                             <div className="box">
                                 <h3>{val.title}</h3>
-                                <h2>{val.heading}</h2>
+                                <h2 className='sm:text-[40px]'>{val.heading}</h2>
                                 <p>{val.desc}</p>
                                 <Link to='contact'><button className='btn-2'>Contact Us</button></Link>
 
