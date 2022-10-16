@@ -58,7 +58,7 @@ const ServicesData = [
 		id: 10,
 		title: "Secondary telescopic crown ",
 		desc: "Secondary crown, designed on a scanned primary telescope crown-outer part of the double crown technique",
-		cover: "./features/offset.jpg",
+		cover: "./features/primary.jpg",
 	  },
 	  {
 		id: 11,

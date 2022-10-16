@@ -48,6 +48,9 @@
   .services .text {
     height: auto;
   }
+  .heading h1{
+    font-size: 20px;
+  }
 }
 
 .services .text h3{
@@ -59,6 +62,15 @@
 .heading h1{
   font-size: 50px;
   
+}
+
+@media screen and (max-width: 768px) {
+  .services .text {
+    height: auto;
+  }
+  .heading h1{
+    font-size: 30px;
+  }
 }
 
 .heading p{

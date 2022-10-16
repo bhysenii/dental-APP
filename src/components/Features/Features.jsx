@@ -1,6 +1,7 @@
 import React from 'react'
 import ServicesData from '../../data/serviceData'
 import './featuresStyle.css'
+import { BiDownvote } from 'react-icons/bi'
 
 const Features = () => {
     return (
@@ -8,7 +9,8 @@ const Features = () => {
             <section className='services'>
                 <div className="container">
                     <div className="heading">
-                        <h1 className='font-bold text-[green]'>What we do</h1>
+                        <h1 className='font-bold text-[green]'>What we do ...</h1>
+                        < BiDownvote className='mx-auto text-center flex flex-col justify-center' color='green' size={30} />
 
                     </div>
                     <div className="contain grid topMargin">

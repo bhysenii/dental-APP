@@ -1,11 +1,12 @@
 import React from 'react'
-import PricingCard from '../components/Pricing/PricingCard'
+import PricingTeeth from '../components/Pricing/PricingTeeth'
+
 
 
 const Pricing = () => {
     return (
         <>
-            <PricingCard />
+            <PricingTeeth />
         </>
     )
 }

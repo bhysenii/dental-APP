@@ -22,8 +22,9 @@ const Navbar = () => {
             <div onClick={handleClick} className='block md:hidden'>
                 {!show ? <AiOutlineMenu size={15} /> : <AiOutlineClose size={15} />}
             </div>
-            <div className={show ? 'fixed left-0 top-0 w-[55%] h-full border-r border-r-gray-600 bg-[gray] z-10 ease-in-out duration-500' : 'fixed left-[100%]'}>
+            <div className={show ? 'fixed left-0 top-0 w-[55%] h-full border-r border-r-gray-600 bg-[black] z-10 ease-in-out' : 'fixed left-[100%]'}>
                 <h1 className='w-full text-3xl font-bold text-[black]'>KH Design</h1>
+                <img className='w-[50px]  mx-auto text-center flex flex-col justify-center' src="./features/logo1.png" alt="logo" />
                 <ul className='pt-15 p-5'>
                     <Link to='/'><li className='p-4 border-b'>Home</li></Link>
                     <Link to='/pricing'><li className='p-4 border-b'>Pricing</li></Link>

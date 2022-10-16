@@ -36,9 +36,8 @@ const Contact = () => {
                     <div className='flex flex-col space-y-6'>
                         <div className='inline-flex space-x-2 items-center'>
                             <BsTelephoneOutbound />
-                            <span>+33-55658-55</span>
+                            <span>+32-5565-xx</span>
                         </div>
-
                         <div className='inline-flex space-x-2 items-center'>
                             <BsTelegram />
                             <span>KH-Design</span>
@@ -54,7 +53,7 @@ const Contact = () => {
                     </div>
                     <div className='flex  text-lg gap-3'>
                         <Link><SiInstagram size={20} /></Link>
-                        <Link href="https://mui.com/"><BsTelegram size={20} /></Link>
+                        <Link><BsTelegram size={20} /></Link>
                         <Link><FiFacebook size={20} /></Link>
                         <Link><AiOutlineLinkedin size={20} /></Link>
                     </div>
