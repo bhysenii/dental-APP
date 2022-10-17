@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <p className='md:text-2xl text-xl font-bold text-cyan-300'>We create beautiful </p>
-                    <Typed className='md:text-2xl text-xl font-bold pl-3 text-cyan-300' strings={['smiles', 'teeth', 'smiles', 'teeth', 'smiles', 'teeth', 'smiles', 'teeth']} typeSpeed={110} backSpeed={130} />
+                    <Typed className='md:text-2xl text-xl font-bold pl-3 text-cyan-300' strings={['smiles', 'teeth', 'smiles', 'teeth', 'smiles', 'teeth', 'smiles', 'teeth', 'smiles']} typeSpeed={110} backSpeed={130} />
                 </div>
 
                 <button className='w-[180px] rounded-md my-6 mx-auto py-3 bg-[green]'>Get Started</button>
