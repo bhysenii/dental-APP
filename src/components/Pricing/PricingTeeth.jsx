@@ -11,7 +11,7 @@ const PricingTeeth = () => {
                     <br />
                     For more please Contact Us</p>
             </div>
-            <div className="grid gap-10 grid-cols-4 grid-rows-3">
+            <div className="mt-10 grid gap-10 grid-cols-4 grid-rows-3">
                 <PlanCard
                     color='#78E3FC'
                     name='Anatomic Crown'

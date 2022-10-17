@@ -3,31 +3,12 @@ import './contact.css'
 import { BsTelephoneOutbound } from 'react-icons/bs'
 import { BsTelegram } from 'react-icons/bs'
 import { SiInstagram } from 'react-icons/si'
-import { Link } from 'react-router-dom'
+
+import Link from '@mui/material/Link';
 import { FiFacebook } from 'react-icons/fi'
-import { AiOutlineLinkedin } from 'react-icons/ai'
+import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
 import emailjs from '@emailjs/browser';
-import {
-    EmailShareButton,
-    FacebookShareButton,
-    HatenaShareButton,
-    InstapaperShareButton,
-    LineShareButton,
-    LinkedinShareButton,
-    LivejournalShareButton,
-    MailruShareButton,
-    OKShareButton,
-    PinterestShareButton,
-    PocketShareButton,
-    RedditShareButton,
-    TelegramShareButton,
-    TumblrShareButton,
-    TwitterShareButton,
-    ViberShareButton,
-    VKShareButton,
-    WhatsappShareButton,
-    WorkplaceShareButton
-} from "react-share";
+
 
 
 
@@ -73,28 +54,41 @@ const Contact = () => {
                             <BsTelephoneOutbound />
                             <span>+32-5565-xx</span>
                         </div>
-                        <TelegramShareButton url='https://t.me/KHdesignDental' className='inline-flex space-x-2 items-center'>
+                        <Link href='https://t.me/KHdesignDental' style={{ textDecoration: 'none', color: 'white' }}>
+
                             <div className='inline-flex space-x-2 items-center'>
 
                                 <BsTelegram />
                                 <span>KH-Design</span>
                             </div>
-                        </TelegramShareButton>
-                        <div className='inline-flex space-x-2 items-center'>
-                            <SiInstagram />
-                            <span>KH-Design</span>
-                        </div>
-                        <div className='inline-flex space-x-2 items-center'>
-                            <FiFacebook />
-                            <span>KH-Design</span>
-                        </div>
+                        </Link>
+                        <Link href='https://www.instagram.com/' style={{ textDecoration: 'none', color: 'white' }} >
+                            <div className='inline-flex space-x-2 items-center'>
+                                <SiInstagram />
+                                <span>KH-Design</span>
+                            </div>
+                        </Link>
+                        <Link href='https://www.facebook.com/profile.php?id=100087072993272' style={{ textDecoration: 'none', color: 'white' }}>
+                            <div className='inline-flex space-x-2 items-center'>
+                                <FiFacebook />
+                                <span>KH-Design</span>
+                            </div>
+                        </Link>
+                        <Link href='https://outlook.live.com/mail/0/' style={{ textDecoration: 'none', color: 'white' }}>
+                            <div className='inline-flex space-x-2 items-center'>
+                                <AiOutlineMail />
+                                <span>
+                                    kh-Dentaldesign@hotmail.com</span>
+                            </div>
+                        </Link>
+
+
                     </div>
                     <div className='flex  text-lg gap-3'>
-                        <SiInstagram size={20} />
-                        <TelegramShareButton url='https://t.me/KHdesignDental'><BsTelegram size={20} /></TelegramShareButton>
-
-                        <FiFacebook size={20} />
-                        <AiOutlineLinkedin size={20} />
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.instagram.com/'><SiInstagram size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://t.me/KHdesignDental'><BsTelegram size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.facebook.com/profile.php?id=100087072993272'><FiFacebook size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='#'><AiOutlineLinkedin size={20} /></Link>
                     </div>
                 </div>
                 <div>
