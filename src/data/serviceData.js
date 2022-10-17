@@ -69,7 +69,7 @@ const ServicesData = [
 	  {
 		id: 12,
 		title: "Bars",
-		desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
+		desc: "Bar pillar / Bar Segment",
 		cover: "./features/bars.jpg",
 	  },
   ]
