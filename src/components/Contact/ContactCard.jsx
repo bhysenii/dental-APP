@@ -47,14 +47,14 @@ const Contact = () => {
                 <div className="flex flex-col space-y-8 justify-between">
                     <div>
                         <h1 className='font-bold text-3xl'>Contact Us</h1>
-                        <p className='pt-2 text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing  Minus, ratione.</p>
+                        <p className='pt-2 text-sm'>Have a question? We have answers</p>
                     </div>
                     <div className='flex flex-col space-y-6'>
                         <div className='inline-flex space-x-2 items-center'>
                             <BsTelephoneOutbound />
                             <span>+32-5565-xx</span>
                         </div>
-                        <Link href='https://t.me/KHdesignDental' style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link href='https://t.me/KHdesignDental'  target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
 
                             <div className='inline-flex space-x-2 items-center'>
 
@@ -62,19 +62,19 @@ const Contact = () => {
                                 <span>KH-Design</span>
                             </div>
                         </Link>
-                        <Link href='https://www.instagram.com/' style={{ textDecoration: 'none', color: 'white' }} >
+                        <Link href='https://www.instagram.com/' target="_blank" style={{ textDecoration: 'none', color: 'white' }} >
                             <div className='inline-flex space-x-2 items-center'>
                                 <SiInstagram />
                                 <span>KH-Design</span>
                             </div>
                         </Link>
-                        <Link href='https://www.facebook.com/profile.php?id=100087072993272' style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link href='https://www.facebook.com/profile.php?id=100087072993272'  target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                             <div className='inline-flex space-x-2 items-center'>
                                 <FiFacebook />
                                 <span>KH-Design</span>
                             </div>
                         </Link>
-                        <Link href='https://outlook.live.com/mail/0/' style={{ textDecoration: 'none', color: 'white' }}>
+                        <Link href='https://outlook.live.com/mail/0/'  target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
                             <div className='inline-flex space-x-2 items-center'>
                                 <AiOutlineMail />
                                 <span>
@@ -85,10 +85,10 @@ const Contact = () => {
 
                     </div>
                     <div className='flex  text-lg gap-3'>
-                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.instagram.com/'><SiInstagram size={20} /></Link>
-                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://t.me/KHdesignDental'><BsTelegram size={20} /></Link>
-                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.facebook.com/profile.php?id=100087072993272'><FiFacebook size={20} /></Link>
-                        <Link style={{ textDecoration: 'none', color: 'white' }} href='#'><AiOutlineLinkedin size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.instagram.com/'  target="_blank"><SiInstagram size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://t.me/KHdesignDental' target="_blank"><BsTelegram size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.facebook.com/profile.php?id=100087072993272' target="_blank"><FiFacebook size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='#' target="_blank"><AiOutlineLinkedin size={20} /></Link>
                     </div>
                 </div>
                 <div>

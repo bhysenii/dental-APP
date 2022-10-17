@@ -1,6 +1,6 @@
 import React from 'react'
 import PlanCard from './PlanCard'
-
+import {Link} from 'react-router-dom'
 
 const PricingTeeth = () => {
     return (
@@ -9,7 +9,8 @@ const PricingTeeth = () => {
                 <h1 className='mb-4 text-6xl font-black text-white'>Pricing</h1>
                 <p className='text-white'>The time we need to design a job, whatever it is , is up to 24 hours.
                     <br />
-                    For more please Contact Us</p>
+                    For more please Contact Us
+                    </p>
             </div>
             <div className="mt-10 grid gap-10 grid-cols-4 grid-rows-3">
                 <PlanCard
