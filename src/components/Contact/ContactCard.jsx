@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './contact.css'
 import { BsTelephoneOutbound } from 'react-icons/bs'
 import { BsTelegram } from 'react-icons/bs'
@@ -7,9 +7,42 @@ import { Link } from 'react-router-dom'
 import { FiFacebook } from 'react-icons/fi'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import emailjs from '@emailjs/browser';
+import {
+    EmailShareButton,
+    FacebookShareButton,
+    HatenaShareButton,
+    InstapaperShareButton,
+    LineShareButton,
+    LinkedinShareButton,
+    LivejournalShareButton,
+    MailruShareButton,
+    OKShareButton,
+    PinterestShareButton,
+    PocketShareButton,
+    RedditShareButton,
+    TelegramShareButton,
+    TumblrShareButton,
+    TwitterShareButton,
+    ViberShareButton,
+    VKShareButton,
+    WhatsappShareButton,
+    WorkplaceShareButton
+} from "react-share";
+
+
+
+
+
+const Result = () => {
+    return (
+        <p>Your message has been successfully sent. I will contact you soon</p>
+    )
+}
+
+
 
 const Contact = () => {
-
+    const [result, showResult] = useState(false)
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -22,6 +55,8 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+        e.target.reset();
+        showResult(true)
     }
 
 
@@ -38,10 +73,13 @@ const Contact = () => {
                             <BsTelephoneOutbound />
                             <span>+32-5565-xx</span>
                         </div>
-                        <div className='inline-flex space-x-2 items-center'>
-                            <BsTelegram />
-                            <span>KH-Design</span>
-                        </div>
+                        <TelegramShareButton url='https://t.me/KHdesignDental' className='inline-flex space-x-2 items-center'>
+                            <div className='inline-flex space-x-2 items-center'>
+
+                                <BsTelegram />
+                                <span>KH-Design</span>
+                            </div>
+                        </TelegramShareButton>
                         <div className='inline-flex space-x-2 items-center'>
                             <SiInstagram />
                             <span>KH-Design</span>
@@ -52,10 +90,11 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='flex  text-lg gap-3'>
-                        <Link><SiInstagram size={20} /></Link>
-                        <Link><BsTelegram size={20} /></Link>
-                        <Link><FiFacebook size={20} /></Link>
-                        <Link><AiOutlineLinkedin size={20} /></Link>
+                        <SiInstagram size={20} />
+                        <TelegramShareButton url='https://t.me/KHdesignDental'><BsTelegram size={20} /></TelegramShareButton>
+
+                        <FiFacebook size={20} />
+                        <AiOutlineLinkedin size={20} />
                     </div>
                 </div>
                 <div>
@@ -74,6 +113,9 @@ const Contact = () => {
                                 <textarea name="message" id="message" cols="30" rows="4" placeholder='Type your Message' className='ring-1 mt-3 w-full rounded-md px-4 py-2 outline-none'></textarea>
                             </div>
                             <button className='w-[160px] rounded-md  font-bold mx-auto py-3 bg-[cyan]'>Send a message</button>
+                            <div className="row">
+                                {result ? <Result /> : null}
+                            </div>
                         </form>
                     </div>
                 </div>

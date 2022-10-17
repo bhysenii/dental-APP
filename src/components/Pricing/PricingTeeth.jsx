@@ -14,83 +14,91 @@ const PricingTeeth = () => {
             <div className="grid gap-10 grid-cols-4 grid-rows-3">
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    price='15'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Anatomic Crown'
+                    price='5 '
+                    features={['-Design with gingiva for large works must be paid extra.', '-For more please Contact us']}
                     btnText='Contact us' />
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Coping'
+                    price='5'
+                    features={['-Design with gingiva for large works must be paid extra.', '-For more please Contact us']}
                     btnText='Contact us' />
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
-                    btnText='Contact us' />
-
-                <PlanCard
-                    color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
-                    btnText='Contact us' />
-                <PlanCard
-                    color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
-                    btnText='Contact us' />
-                <PlanCard
-                    color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Offset coping'
+                    price='3'
+                    features={['-Design with gingiva for large works must be paid extra.', '-For more please Contact us']}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Inlay/Onlay'
+                    price='5'
+                    description=''
+                    features={[]}
+                    btnText='Contact us' />
+                <PlanCard
+                    color='#78E3FC'
+                    name='Veneer'
+                    price='5'
+                    description=''
+                    features={[]}
+                    btnText='Contact us' />
+                <PlanCard
+                    color='#78E3FC'
+                    name='Partial denture'
+                    price='25'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Full denture'
+                    price='25'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Bite splint'
+                    price='10'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Primary telescopic crown'
+                    price='10'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Secondary telescopic crown'
+                    price='10'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
                 <PlanCard
                     color='#78E3FC'
-                    name='Basic'
-                    description='-Design with gingiva for large works must be paid extra.'
-                    features={['1 user', '2 user', '10gb projects']}
+                    name='Attachment'
+                    price='10'
+                    description=''
+                    features={[]}
+                    btnText='Contact us' />
+
+                <PlanCard
+                    color='#78E3FC'
+                    name='Bars'
+                    price='20'
+                    description=''
+                    features={[]}
                     btnText='Contact us' />
 
 
