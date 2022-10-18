@@ -26,9 +26,9 @@ const Navbar = () => {
                 <h1 className='w-full text-3xl font-bold text-[black]'>KH Design</h1>
                 <img className='w-[50px]  mx-auto text-center flex flex-col justify-center' src="./features/logo1.png" alt="logo" />
                 <ul className='pt-15 p-5'>
-                    <Link to='/'><li className='p-4 border-b'>Home</li></Link>
-                    <Link to='/pricing'><li className='p-4 border-b'>Pricing</li></Link>
-                    <Link to='/contact'><li className='p-4 border-b  bg-slate-600 '>Contact</li></Link>
+                    <Link onClick={() => setShow(false)} to='/'><li className='p-4 border-b'>Home</li></Link>
+                    <Link onClick={() => setShow(false)} to='/pricing'><li className='p-4 border-b'>Pricing</li></Link>
+                    <Link onClick={() => setShow(false)} to='/contact'><li className='p-4 border-b  bg-slate-600 '>Contact</li></Link>
                 </ul>
             </div>
         </div >
