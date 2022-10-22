@@ -62,7 +62,7 @@ const Contact = () => {
                                 <span>KH-Design</span>
                             </div>
                         </Link>
-                        <Link href='https://www.instagram.com/kh_dentaldesign/' target="_blank" style={{ textDecoration: 'none', color: 'white' }} >
+                        <Link href='https://www.instagram.com/kh.dentaldesign/' target="_blank" style={{ textDecoration: 'none', color: 'white' }} >
                             <div className='inline-flex space-x-2 items-center'>
                                 <SiInstagram />
                                 <span>KH-Design</span>
@@ -85,7 +85,7 @@ const Contact = () => {
 
                     </div>
                     <div className='flex  text-lg gap-3'>
-                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.instagram.com/' target="_blank"><SiInstagram size={20} /></Link>
+                        <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.instagram.com/kh.dentaldesign/' target="_blank"><SiInstagram size={20} /></Link>
                         <Link style={{ textDecoration: 'none', color: 'white' }} href='https://t.me/KHdesignDental' target="_blank"><BsTelegram size={20} /></Link>
                         <Link style={{ textDecoration: 'none', color: 'white' }} href='https://www.facebook.com/profile.php?id=100087072993272' target="_blank"><FiFacebook size={20} /></Link>
                         <Link style={{ textDecoration: 'none', color: 'white' }} href='#' target="_blank"><AiOutlineLinkedin size={20} /></Link>
